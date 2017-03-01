@@ -18,7 +18,8 @@ gulp.task('styles', function() {
 	gulp.src('css/*.css')
 		.pipe(plumber())
 		.pipe(minifyCSS())
-		.pipe(gulp.dest('minCSS/'));
+		.pipe(rename('index.css'))
+		.pipe(gulp.dest('css/'));
 });
 
 //watch all changes automatically
