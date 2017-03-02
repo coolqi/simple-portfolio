@@ -19,6 +19,7 @@
 .imageName {
 	text-transform: uppercase;
 }
+
 .title {
 	text-align: right;
 
@@ -62,6 +63,7 @@ h1 {
 .imageName h2 {
 	color: #000;
 }
+
 .linkName {
 	font-size: 10px;
 }
@@ -70,6 +72,7 @@ h1 {
 	.imageSection {
 		display: block;
 	}
+	
 	.image {
 		margin-bottom: 10px;
 		width: 100%;
